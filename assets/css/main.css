@@ -719,17 +719,7 @@ input, select, textarea {
 			}
 
 		}
-		/* add responsiveness for smaller screen sizes */
-	#intro_img{
-		margin : 10px;
-		margin-left : 30px;
-		margin-top : 40px;
-		float : right;
-		height: auto; 
-		width: auto; 
-		max-width: 400px; 
-		max-height: 400px;
-	}
+
 /* List */
 
 	ol {
@@ -1680,4 +1670,22 @@ input, select, textarea {
 	}
 	.normal-text{
 		clear :both;
+	}
+
+	#img-container {
+		display : flex;
+		justify-content: center;
+		align-items : center
+	}
+/* add responsiveness for smaller screen sizes */
+	
+	#intro_img{
+		margin : 10px;
+		margin-left : 30px;
+		margin-top : 40px;
+		float : right;
+		height: auto; 
+		width: auto; 
+		max-width: 400px; 
+		max-height: 400px;
 	}
