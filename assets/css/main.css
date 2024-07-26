@@ -1804,12 +1804,28 @@ p {
 /* add responsiveness for smaller screen sizes */
 
 #intro_img {
-	margin: 10px;
-	margin-left: 30px;
-	margin-top: 40px;
-	float: right;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 100%;
 	height: auto;
-	width: auto;
-	max-width: 400px;
-	max-height: 400px;
+}
+
+#intro_img_container {
+	max-width: 45%;
+	float: right;
+}
+
+@media screen and (max-width : 500px) {
+	#intro_img_container {
+		max-width: 95%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#intro_img {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
